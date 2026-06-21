@@ -1,0 +1,8 @@
+{
+  "name": "Inkorporated Example Pack",
+  "author": "DooDesch",
+  "tattoos": [
+    { "id": "example_heart", "name": "Example Heart", "placement": "chest",   "file": "heart_chest.png" },
+    { "id": "example_star",  "name": "Example Star",  "placement": "leftarm", "file": "star_leftarm.png", "price": 100 }
+  ]
+}
