@@ -35,10 +35,13 @@ content mod - just declare `DooDesch-Inkorporated` as a dependency.
 using Inkorporated;            // API
 using Inkorporated.Model;      // TattooPlacement
 
-// In OnInitializeMelon (register early - before the tattoo shop UI is built):
-API.RegisterTattoo("ring_face", "Example Ring (API)", TattooPlacement.Face, myTexture2D, price: 0f, source: "InkExample");
-// or from a PNG on disk:
-API.RegisterTattooFromFile("my_id", "My Tattoo", TattooPlacement.Chest, pngPath, source: "InkExample");
+// In OnInitializeMelon (register early - before the tattoo shop UI is built).
+// The PNG is embedded in this DLL, so one call loads + registers it (no boilerplate):
+API.RegisterTattooFromResource("ring_face", "Example Ring (API)", TattooPlacement.Face, "InkExample.Assets.ring_face.png", source: "InkExample");
+
+// other ways to register:
+API.RegisterTattooFromFile("my_id", "My Tattoo", TattooPlacement.Chest, pngPath, source: "InkExample");   // a PNG on disk
+API.RegisterTattoo("my_id", "My Tattoo", TattooPlacement.Chest, myTexture2D, source: "InkExample");        // a Texture2D you built
 ```
 
 `TattooPlacement` is `Chest | LeftArm | RightArm | Face`. `source` namespaces your ids. Because tattoos
