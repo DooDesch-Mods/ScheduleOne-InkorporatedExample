@@ -1,6 +1,6 @@
 # Inkorporated Example
 
-> 🛟 **Need help or found a bug?** Get support at [support.doodesch.de](https://support.doodesch.de).
+> 🛟 **Need help or found a bug?** Get support at [support.doodesch.de/inkorporatedexample](https://support.doodesch.de/inkorporatedexample).
 
 A working, copy-me example for [**Inkorporated**](https://github.com/DooDesch-Mods/ScheduleOne-Inkorporated) -
 the custom-tattoo framework for Schedule I. It shows the **two ways** to add tattoos to the in-game tattoo
