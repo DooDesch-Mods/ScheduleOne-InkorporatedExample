@@ -11,7 +11,7 @@ shop, side by side:
 | [`pack/`](pack/) | A drop-in **content pack** (manifest.json + PNGs) | No | Shipping a set of tattoos as a standalone mod |
 | [`code-mod/`](code-mod/) | A MelonLoader mod using the **`Inkorporated.API`** | Yes (C#) | Generating/registering tattoos at runtime, NPCs, dynamic packs |
 
-Full docs: the **[Inkorporated Wiki](https://github.com/DooDesch-Mods/ScheduleOne-Inkorporated/wiki)**.
+Full docs: the **[Inkorporated Wiki](https://docs.doodesch.de/mods/inkorporated/)**.
 
 ## Requirements (for both routes)
 
