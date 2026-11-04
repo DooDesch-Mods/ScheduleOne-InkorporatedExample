@@ -2,7 +2,7 @@
 
 > 🛟 **Need help or found a bug?** Get support at [support.doodesch.de/inkorporatedexample](https://support.doodesch.de/inkorporatedexample).
 
-A working, copy-me example for [**Inkorporated**](https://github.com/DooDesch-Mods/ScheduleOne-Inkorporated) -
+A working, copy-me example for [**Inkorporated**](https://www.nexusmods.com/schedule1/mods/2214) -
 the custom-tattoo framework for Schedule I. It shows the **two ways** to add tattoos to the in-game tattoo
 shop, side by side:
 
@@ -17,7 +17,7 @@ Full docs: the **[Inkorporated Wiki](https://docs.doodesch.de/mods/inkorporated/
 
 - Schedule I (IL2CPP) + **MelonLoader 0.7.3+**
 - **S1API** ([ifBars/S1API_Forked](https://thunderstore.io/c/schedule-i/p/ifBars/S1API_Forked/))
-- **Inkorporated** ([the framework](https://github.com/DooDesch-Mods/ScheduleOne-Inkorporated))
+- **Inkorporated** ([the framework](https://www.nexusmods.com/schedule1/mods/2214))
 
 ## Route 1 - the content pack (no code)
 
